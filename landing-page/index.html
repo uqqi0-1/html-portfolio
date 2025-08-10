@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Nova — Do more with a brilliantly simple platform</title>
+    <meta name="description" content="A modern, responsive landing page with beautiful design and accessible components." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header" aria-label="Main">
+      <div class="container nav">
+        <a href="#" class="brand" aria-label="Nova home">
+          <svg width="28" height="28" viewBox="0 0 48 48" aria-hidden="true" focusable="false">
+            <defs>
+              <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0%" stop-color="#7C3AED" />
+                <stop offset="100%" stop-color="#06B6D4" />
+              </linearGradient>
+            </defs>
+            <rect x="0" y="0" width="48" height="48" rx="12" fill="url(#g)" />
+            <path d="M14 30l5-12 7 6 8-10" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+          <span>Nova</span>
+        </a>
+        <nav class="primary-nav" aria-label="Primary">
+          <ul>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#how">How it works</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#faq">FAQ</a></li>
+          </ul>
+        </nav>
+        <div class="nav-cta">
+          <a class="btn btn-ghost" href="#pricing">See pricing</a>
+          <a class="btn btn-primary" href="#cta">Get started</a>
+        </div>
+        <button class="nav-toggle" aria-controls="mobile-menu" aria-expanded="false" aria-label="Open menu">
+          <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+        </button>
+      </div>
+      <div id="mobile-menu" class="mobile-menu" hidden>
+        <nav aria-label="Mobile">
+          <a href="#features">Features</a>
+          <a href="#how">How it works</a>
+          <a href="#pricing">Pricing</a>
+          <a href="#faq">FAQ</a>
+          <a class="btn btn-primary w-full" href="#cta">Get started</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero section">
+        <div class="container grid-2">
+          <div class="hero-copy reveal">
+            <div class="eyebrow">Introducing Nova</div>
+            <h1>
+              Do more with a
+              <span class="gradient-text">brilliantly simple</span>
+              platform
+            </h1>
+            <p class="lead">
+              Ship projects faster, automate the busywork, and delight your users with a platform that just works—beautifully.
+            </p>
+            <div class="actions">
+              <a class="btn btn-primary" href="#cta">Start for free</a>
+              <a class="btn btn-ghost" href="#features">Learn more</a>
+            </div>
+            <div class="trust-row">
+              <span class="trust-text">Trusted by teams at</span>
+              <div class="logos">
+                <span class="logo">Acme</span>
+                <span class="logo">Orbit</span>
+                <span class="logo">Pulse</span>
+                <span class="logo">Zenly</span>
+              </div>
+            </div>
+          </div>
+          <div class="hero-media reveal">
+            <div class="device">
+              <div class="device-top">
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+              </div>
+              <div class="device-body">
+                <div class="card shimmering"></div>
+                <div class="card"></div>
+                <div class="card"></div>
+                <div class="chart">
+                  <div class="bar" style="--h:55%"></div>
+                  <div class="bar" style="--h:80%"></div>
+                  <div class="bar" style="--h:40%"></div>
+                  <div class="bar" style="--h:70%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="features" class="section features">
+        <div class="container">
+          <div class="section-head reveal">
+            <h2>Everything you need, nothing you don’t</h2>
+            <p class="subhead">Powerful features designed to help you move from idea to impact in record time.</p>
+          </div>
+          <div class="features-grid">
+            <article class="feature reveal">
+              <div class="icon">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h10" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+              </div>
+              <h3>Clean workflow</h3>
+              <p>Focus on the work that matters with an intuitive, clutter‑free UX.</p>
+            </article>
+            <article class="feature reveal">
+              <div class="icon">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v18M3 12h18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+              </div>
+              <h3>Scales with you</h3>
+              <p>From solo to enterprise, Nova adapts without friction.</p>
+            </article>
+            <article class="feature reveal">
+              <div class="icon">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 8a4 4 0 110 8 4 4 0 010-8z" fill="none" stroke="currentColor" stroke-width="2"/><path d="M4.93 4.93l14.14 14.14" stroke="currentColor" stroke-width="2"/></svg>
+              </div>
+              <h3>Privacy first</h3>
+              <p>Data encryption at rest and in transit, with fine‑grained controls.</p>
+            </article>
+            <article class="feature reveal">
+              <div class="icon">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12l6 6L20 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+              </div>
+              <h3>Automations</h3>
+              <p>Trigger powerful workflows to eliminate repetitive tasks.</p>
+            </article>
+            <article class="feature reveal">
+              <div class="icon">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M5 12h14" fill="none" stroke="currentColor" stroke-width="2"/></svg>
+              </div>
+              <h3>Extensible</h3>
+              <p>Integrations and APIs to fit perfectly into your stack.</p>
+            </article>
+            <article class="feature reveal">
+              <div class="icon">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l3 7h7l-5.5 4 2 7-6.5-4.5L6.5 20l2-7L3 9h7z" fill="currentColor"/></svg>
+              </div>
+              <h3>Beautiful by default</h3>
+              <p>Polished components and themes that look great out of the box.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="how" class="section how">
+        <div class="container">
+          <div class="section-head reveal">
+            <h2>From setup to shipping in minutes</h2>
+            <p class="subhead">Three simple steps to go from idea to live product.</p>
+          </div>
+          <ol class="steps">
+            <li class="step reveal">
+              <div class="num">1</div>
+              <div class="content">
+                <h3>Create your workspace</h3>
+                <p>Set your brand, invite your team, and connect your tools.</p>
+              </div>
+            </li>
+            <li class="step reveal">
+              <div class="num">2</div>
+              <div class="content">
+                <h3>Design your flow</h3>
+                <p>Assemble components and automations visually—no code required.</p>
+              </div>
+            </li>
+            <li class="step reveal">
+              <div class="num">3</div>
+              <div class="content">
+                <h3>Launch and scale</h3>
+                <p>Deploy with one click and scale confidently with built‑in observability.</p>
+              </div>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="section testimonials">
+        <div class="container">
+          <div class="section-head reveal">
+            <h2>Loved by modern teams</h2>
+            <p class="subhead">Real results from people shipping real products.</p>
+          </div>
+          <div class="testimonials-grid">
+            <figure class="testimonial reveal">
+              <blockquote>
+                “Nova trimmed weeks off our roadmap. Our team finally focuses on outcomes, not glue code.”
+              </blockquote>
+              <figcaption>
+                <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='64' height='64'><rect width='100%' height='100%' rx='12' fill='%237C3AED'/></svg>" alt="Avatar" />
+                <div>
+                  <div class="name">Avery Kim</div>
+                  <div class="role">VP Product, Orbit</div>
+                </div>
+              </figcaption>
+            </figure>
+            <figure class="testimonial reveal">
+              <blockquote>
+                “We replaced a patchwork of tools with Nova. Onboarding takes minutes and our velocity skyrocketed.”
+              </blockquote>
+              <figcaption>
+                <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='64' height='64'><rect width='100%' height='100%' rx='12' fill='%2306B6D4'/></svg>" alt="Avatar" />
+                <div>
+                  <div class="name">Jordan Patel</div>
+                  <div class="role">Eng Lead, Pulse</div>
+                </div>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section id="pricing" class="section pricing">
+        <div class="container">
+          <div class="section-head reveal">
+            <h2>Simple, transparent pricing</h2>
+            <p class="subhead">Start free. Upgrade when you’re ready. No surprises.</p>
+          </div>
+          <div class="pricing-grid">
+            <article class="price-card reveal">
+              <div class="badge">Starter</div>
+              <div class="price"><span class="amount">$0</span><span class="unit">/mo</span></div>
+              <ul class="features-list">
+                <li>Up to 3 projects</li>
+                <li>Basic automation</li>
+                <li>Community support</li>
+              </ul>
+              <a class="btn btn-ghost w-full" href="#cta">Get started</a>
+            </article>
+            <article class="price-card popular reveal">
+              <div class="badge">Pro</div>
+              <div class="price"><span class="amount">$29</span><span class="unit">/mo</span></div>
+              <ul class="features-list">
+                <li>Unlimited projects</li>
+                <li>Advanced automation</li>
+                <li>Priority support</li>
+              </ul>
+              <a class="btn btn-primary w-full" href="#cta">Start free trial</a>
+            </article>
+            <article class="price-card reveal">
+              <div class="badge">Business</div>
+              <div class="price"><span class="amount">$99</span><span class="unit">/mo</span></div>
+              <ul class="features-list">
+                <li>Everything in Pro</li>
+                <li>SSO and audit logs</li>
+                <li>Dedicated manager</li>
+              </ul>
+              <a class="btn btn-ghost w-full" href="#cta">Contact sales</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="faq" class="section faq">
+        <div class="container">
+          <div class="section-head reveal">
+            <h2>Frequently asked questions</h2>
+            <p class="subhead">Answers to common questions about Nova.</p>
+          </div>
+          <div class="faq-grid">
+            <details class="faq-item reveal">
+              <summary>Can I try Nova for free?</summary>
+              <p>Yes, the Starter plan is free. You can also start a 14‑day Pro trial any time.</p>
+            </details>
+            <details class="faq-item reveal">
+              <summary>Do you offer discounts?</summary>
+              <p>We offer discounts for students, nonprofits, and annual billing. Contact sales to learn more.</p>
+            </details>
+            <details class="faq-item reveal">
+              <summary>Is my data secure?</summary>
+              <p>We use industry‑standard encryption in transit and at rest, with regular third‑party audits.</p>
+            </details>
+            <details class="faq-item reveal">
+              <summary>Can I cancel anytime?</summary>
+              <p>Absolutely. There are no contracts, and you can export your data at any time.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <section id="cta" class="section cta">
+        <div class="container cta-inner reveal">
+          <div class="cta-copy">
+            <h2>Ready to build something great?</h2>
+            <p>Join thousands of teams using Nova to ship faster and smarter.</p>
+          </div>
+          <form class="cta-form" onsubmit="return false" aria-label="Join waitlist">
+            <input type="email" placeholder="Enter your email" aria-label="Email address" required />
+            <button class="btn btn-primary" type="submit">Join waitlist</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div class="foot-brand">
+          <a href="#" class="brand">
+            <svg width="24" height="24" viewBox="0 0 48 48" aria-hidden="true"><defs><linearGradient id="g2" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#7C3AED" /><stop offset="100%" stop-color="#06B6D4" /></linearGradient></defs><rect x="0" y="0" width="48" height="48" rx="12" fill="url(#g2)"/></svg>
+            <span>Nova</span>
+          </a>
+          <p class="foot-note">Building delightful software for ambitious teams.</p>
+        </div>
+        <div class="foot-links">
+          <div>
+            <div class="foot-title">Product</div>
+            <a href="#features">Features</a>
+            <a href="#pricing">Pricing</a>
+            <a href="#how">How it works</a>
+          </div>
+          <div>
+            <div class="foot-title">Company</div>
+            <a href="#">About</a>
+            <a href="#">Careers</a>
+            <a href="#">Contact</a>
+          </div>
+          <div>
+            <div class="foot-title">Resources</div>
+            <a href="#faq">FAQ</a>
+            <a href="#">Docs</a>
+            <a href="#">Status</a>
+          </div>
+        </div>
+      </div>
+      <div class="foot-bottom">
+        <div class="container foot-bottom-inner">
+          <span>© <span id="year"></span> Nova, Inc.</span>
+          <div class="foot-legal">
+            <a href="#">Terms</a>
+            <a href="#">Privacy</a>
+            <a href="#">Security</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./script.js" defer></script>
+  </body>
+</html>
